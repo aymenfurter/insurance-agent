@@ -1,0 +1,66 @@
+# -------------------------------------------------------------
+#  Python byte-code / metadata
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+data
+
+#  Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+#  Editor & IDE folders
+.vscode/
+.idea/
+*.sublime-*
+
+#  Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+#  Logs & local run artifacts
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+#  Test / coverage artifacts
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+
+#  Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+#  Azure / secrets
+*.azcli
+*.azure
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+.env.local
+settings.json  # generated in data/settings.json (local secrets)
+
+#  Project-specific data output
+/workspaces/insurance-comparison-assistant/data/
+!data/README.md  # keep placeholder if exists
+
+#  Notebook checkpoints
+**/.ipynb_checkpoints/
+
+#  VS Code Python analysis
+.pyrightconfig.json
+
+stored_analyses
